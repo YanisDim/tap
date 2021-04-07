@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        </style>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Talkin' About Practice!</title>
+</head>
+<body>
+
+    <!-- Start Page-->
+
+<section id="start-page">
+    <div id = "title-box">
+        <img src="./Img/logoTAP.png" id='logo' alt='TAP game Logo'>  
+        <h1>Welcome to the Practice</h1>
+        
+    </div>
+    <div id="instructions-box">
+        <h2>Catch all the passes to earn your coach's trust this season </h2>
+        <p id="instructions"> Move along the baseline using the arrows  ◀︎ / ▶︎ </p>
+    </div>
+    <div class="input-container">
+        <label for="name">Name</label>
+        <input type="text" id="name" maxLength="20">
+        <br>
+        <button id="start-btn" class="button">Start Practicing</button>
+        <a href="https://www.youtube.com/watch?v=3gvmPqCDPPg">
+            <button id="lazy" class= "button">I'm Lazy</button>
+        </a>
+    </div>
+</section>
+
+<!--Game Page-->
+
+<section id="game-page">
+    
+    <div id="game-container">
+        <canvas id="myCanvas" width="670" height="800"></canvas>
+    </div>
+</section>
+
+
+<!--Game Over Page-->
+
+<section id="game-over-page">
+    <div id="final-top">
+        <h1>You look tired, the coach sends you to the bench</h1>
+        <h2 id="final-score"></h2>
+    </div>
+    <div id='out'>
+        <img src="./Img/zeljko-obradovic-fenerbahce-be.jpg" id='coach' alt='angry coach'>
+        
+    </div>
+    <div id="final-bottom">
+        <img src='./Img/giphy-tumblr.gif' id='gif' alt="iverson practice quote gif">
+        <button id="restart" class="button">Try again?</button>
+    </div>
+
+</section>
+
+
+
+
+<!--Adding the scripts-->
+    
+    <script src='./gator.js'></script>
+    <script src="./ball.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

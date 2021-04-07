@@ -1,0 +1,99 @@
+body{
+    background-color: #CDE8D4;
+    color: #111;
+    font-family: 'Kaushan Script', cursive, Arial, Helvetica, sans-serif;
+}
+
+
+.button{
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #587a59;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Kaushan Script', cursive;;
+}
+
+#instructions-box,
+h1{
+    text-align: center;
+
+}
+
+#instructions-box{
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 30px;;
+    text-align: center;
+}
+
+p{
+    font-size: 22px;
+}
+
+.input-container{
+    text-align: center;
+    display: flow-root;
+    justify-content:space-evenly;
+}
+
+input{
+    border-radius: 50px;
+    height: 40px;
+    width: 200px;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+
+
+.name{
+    justify-self:center ;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#coach{
+    
+    margin-right: 50px;
+}
+
+#out{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#final-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+
+#restart{
+    margin-left: 50px;
+}
+
+#gif{
+    border-radius: 80px;
+}
